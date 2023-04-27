@@ -49,6 +49,7 @@ section::after {
     transform-style: preserve-3d;
 }
 
+/* to flip when hovered */
 .container:hover {
     transform: rotateY(180deg);
 }
@@ -142,6 +143,8 @@ h5 .name {
     width: 85%;
     background-color: #fff;
     border-radius: 6px;
+
+    /* making white lines on */
     background: repeating-linear-gradient(#fff, #fff 3px, #efefef 0px, #efefef 9px);
 }
 
